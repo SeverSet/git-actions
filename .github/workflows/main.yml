@@ -1,0 +1,13 @@
+name: CI
+
+on:  
+  push:
+    branches: [ main ]
+
+jobs:
+  task1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print name
+        run: echo "Eduard Paliy"
